@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav{
+  margin-left: 25%;
+  font-size: 20px;
+}
+
+.bgimg{
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-colorful-ice-cream-blackboard-background_23-2148979666.jpg?t=st=1713177884~exp=1713181484~hmac=bcd2320b38da1ae32b689c3126cf0ea1aaea06d1e967ac462715ff99d650a615&w=2000);
+  width:100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 9%;
+}
+
+.bgimg-2{
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-colorful-ice-cream-blackboard-background_23-2148979666.jpg?t=st=1713177884~exp=1713181484~hmac=bcd2320b38da1ae32b689c3126cf0ea1aaea06d1e967ac462715ff99d650a615&w=2000);
+  width:100%;
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -5%;
+}
+
+.head{
+  margin-top: 9%;
+  margin-right: -2%;
+}
+
+.card{
+  margin-left: 3%;
+  border-radius: 15px;
+  box-shadow: 1px 2px 20px 2px gray;
+}
+
+.card-body{
+  font-weight: bold;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+#products{
+  background-color: ghostwhite;
+}
+
+.card-img-top{
+  aspect-ratio: 3/2;
+}
+
+.card-body{
+  background-color:whitesmoke;
+}
+
+.carousel-img{
+  aspect-ratio: 5/4;
+}
+
+.carousel-caption{
+  background: rgba(59, 57, 57, 0.5);
+ color: rgba(0,0,0,1);
+}
+.slide{
+  background-color: blanchedalmond;
+}
+ 
+.ca-img{
+  aspect-ratio: 3/4;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+
+.icons{
+  padding-top: 7%;
+}
+
+.fa-brands{
+  margin-left: 25px;
+  margin-right: 35px;
+  font-size: 45px;
+}
+
+.fa-facebook{
+  color: blue;
+}
+
+.instagram-icon {
+  color: #E4405F;
+}
+
+.fa-square-x-twitter{
+  color: aliceblue;
+}
+
+.fa-whatsapp{
+  color: greenyellow;
+}
+
+.fa-youtube{
+  color:red;
+}
+
+.fa-location-dot{
+  color: aquamarine;
+  font-size: 30px;
+  margin-left: 35px;
+}
+
+a{
+font-size: 20px;
+letter-spacing: 1.5px;
+text-decoration: none;
+}
+
+
+
+.btns{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.btns:hover{
+  color: black;
+  background-color: aliceblue;
+}
+
+.btns{
+  background-color: black;
+}
+
+.form-label{
+  font-weight: bold;
+}
+
+.backgrnd{
+  background-color: black;
+}
+
+
+@media only screen and (max-device-width: 780px) {
+
+  *{
+    overflow-x: hidden;
+  }
+
+  .carousel-item .carousel-caption p {
+      font-size: 7px;
+  }
+
+  .carousel-item .carousel-caption h5 {
+      font-size: 17px;
+  }
+
+  .card {
+      margin-left: 5%;
+      margin-top: 1%;
+  }
+
+}
+
+@media only screen and (min-device-width: 782px) and (max-device-width : 850px) {
+  *{
+    overflow-x: hidden;
+  }
+  footer {
+      margin-top: 7%;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width : 768px) {
+  *{
+    overflow-x: hidden;
+  }
+  footer {
+      margin-top: 7%;
+
+  }
+  .icons{
+    font-size: 15px;
+  }
+}
+@media only screen and (min-device-width: 300px) and (max-device-width : 768px) {
+  *{
+    overflow-x: hidden;
+  }
+  footer {
+      margin-top: 7%;
+  }
+}
+

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap- Task</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/019a9bcf3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="small--hide" src="//frozenbottle.com/cdn/shop/files/frozen_logo_ai-02_2_210x.png?v=1662711744" srcset="//frozenbottle.com/cdn/shop/files/frozen_logo_ai-02_2_210x.png?v=1662711744 1x, //frozenbottle.com/cdn/shop/files/frozen_logo_ai-02_2_210x@2x.png?v=1662711744 2x" alt="Frozen Bottle " itemprop="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#Icecreams">ICECREAMS</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#ThickShakes">THICKSHAKES</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#MilkShakes">MILKSHAKES</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#Cakes">CAKES</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#payment">PAYMENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">SEARCH</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- home -->
+  <section class="bgimg" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="head" style="font-size: 95px; letter-spacing: 2.5px; color: aliceblue; text-shadow: 2px 2px 4px gray;">Frozen Bottle</h1>
+          <p style="font-size:25px; margin-left:3%;margin-top: 5% ;letter-spacing: 1.5px;color:burlywood; text-shadow: 2px 2px 4px gray;">Dive into our exquisite range of handcrafted delights!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- slide -->
+  <section class="slide">
+    <div class="container">
+      <div class="row d-flex justify-content-center pt-4 pb-4">
+        <div class="col-12 w-50 ">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-photo/tasty-ice-cream-with-cookies_23-2149836045.jpg?t=st=1713192485~exp=1713196085~hmac=5bd4e8d0b8841e9d93c1c940181fe6a7c98b973253e3a10869f1d19aa8e780f0&w=2000" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Ice creams</b></h5>
+                  <p>Scoops of delight, a frozen dream's embrace,
+                    Swirling flavors, a sweet and creamy chase,
+                    In cones or cups, a treat for any place,
+                    With each lick, joy's smile we can trace.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/view-delicious-milkshake-drink-with-bananas_23-2150822933.jpg?t=st=1713192555~exp=1713196155~hmac=0bae817dd15f4585a397bd10244e7082db28f4afde720f970a5ba8ee14a84152&w=2000" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>ThickShakes</b></h5>
+                  <p>blended with a variety of flavors, from classic chocolate and vanilla to fruit and cookies. Topped with whipped cream and sprinkles, it makes for a delightful dessert. Perfect for a hot day or a sweet craving, a thick shake is sure to satisfy!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?t=st=1713192682~exp=1713196282~hmac=6caebf23ae3e84ed9109a729f695f59f59050958ee4203a89cd87f108b07d93f&w=2000" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Cakes</b></h5>
+                  <p>Layers of sweetness, baked to delight,
+                    Each bite a promise of sheer delight.
+                    With frosting swirls, a tempting sight,
+                    Cake, a celebration in every bite.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/front-view-desserts-with-gummy-worms-sprinkles-with-copy-space_23-2148603250.jpg?t=st=1713192782~exp=1713196382~hmac=bc295af5a85f28cd7dfaf1f73ffc8df98706f5b78c0a6fbbcf9771dae70a4596&w=2000" class="d-block w-100 carousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Milkshakes</b></h5>
+                  <p>Creamy swirls in a frosty blend,
+                    Milk and sweetness, a sip to send
+                    Joy cascading, flavors mend,
+                    Milkshakes, a delight without end.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- products -->
+  <section id="products" class="pt-4" style="padding-bottom: 5%;">
+    <section class="container">
+      <h1 class="text-center mt-3 pt-3 pb-4" style="font-size: 45px;">PRODUCTS</h1>
+
+    <!-- Ice creams -->
+      <div class="row pt-5 pb-5">
+        <h3 id="Icecreams" class="pb-4">ICECREAMS</h3>
+        <div class="col-12 col-sm-12">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 mr-5">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://img.freepik.com/free-photo/close-up-dessert-gourmet-ice-cream-with-fresh-fruit-generative-ai_188544-9372.jpg?t=st=1713196004~exp=1713199604~hmac=f8c37a56af327067f29273dfc69b2bf8d4612cb7a353016dc8e3ca89354c9620&w=2000" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ButterScotch</h5>
+                            <p class="card-text">₹249</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://img.freepik.com/free-photo/indulgent-chocolate-ice-cream-ball-wooden-material-generative-ai_188544-9454.jpg?t=st=1713196461~exp=1713200061~hmac=1a2f86853de91af30b7860bf64a17933f93cf2f06fd8ca4d9cd6b002a664fd14&w=2000" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate</h5>
+                            <p class="card-text">₹229</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://img.freepik.com/free-photo/strawberry-dessert-gourmet-sweet-food-chocolate-indulgence-generative-ai_188544-8522.jpg?t=st=1713196544~exp=1713200144~hmac=8f867130396f7cfce4b16f9bcad95ba6a782ceb63bd2d5f041e3dbf47fc18a4a&w=2000" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry</h5>
+                            <p class="card-text">₹259</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://img.freepik.com/free-photo/close-up-ice-cream-with-nuts_23-2148507941.jpg?t=st=1713197254~exp=1713200854~hmac=3bd28cad7c9946c8ddcf759a19b110912866a147a8fdf421fdf5defb473ebb8a&w=2000" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla</h5>
+                            <p class="card-text">₹219</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- ThickShakes -->
+    <div class="row pt-5 pb-5">
+    <h3 id="ThickShakes" class="mt-5 mb-4">THICKSHAKES</h3>
+    <div class="col-12 d-flex flex-wrap justify-content-center">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/front-view-chocolate-milkshake-with-pretzels-straws_23-2148707841.jpg?t=st=1713197695~exp=1713201295~hmac=7b100f4e0ccc9c8817ea57761b93f7ecfed3988088ece4ceb6908afe5544096e&w=826" class="card-img-top ca-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caramel ThickShake</h5>
+          <p class="card-text">₹329</p>
+          <a href="#" class="btn btn-primary">Buy Now </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/glass-filled-with-chocolate-ice-cream-dessert_23-2148425396.jpg?t=st=1713197971~exp=1713201571~hmac=ca7eb1f93be19aa7894206cad59b1007859babb948855372e71b85ac606d117f&w=826" class="card-img-top ca-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">KitKat ThickShake</h5>
+          <p class="card-text">₹319</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/front-view-desserts-with-marshmallows-pretzels_23-2148603319.jpg?t=st=1713198063~exp=1713201663~hmac=9696fffadb0de28d2ac1d71134aeb49046872fd86b7ab09bf59af278b25b7e17&w=826" class="card-img-top ca-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nutella ThickShake</h5>
+          <p class="card-text">₹359</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/front-view-dessert-with-biscuits_23-2148603300.jpg?t=st=1713198158~exp=1713201758~hmac=9d7b6fdadf09d33f809186e8a94f3d85f77a35752747b50368714f4ca32ef549&w=900" class="card-img-top ca-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Oreo ThickShake</h5>
+          <p class="card-text">₹339</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+ 
+
+      <!-- MilkShakes -->
+      <div class="row pt-5 pb-5">
+        <h3 id="MilkShakes" class="mt-5 mb-4">MILKSHAKES</h3>
+        <div class="col-12 d-flex flex-wrap justify-content-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/mango-smoothies_1203-7446.jpg?t=st=1713198626~exp=1713202226~hmac=bb2862ed446a8441aa9f05ed04cd0271dd8ba09f355021bd376727e67f34447e&w=826" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mango Milkshake</h5>
+                <p class="card-text">₹169</p>
+                <a href="#" class="btn btn-primary">Buy Now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/front-view-arrangement-with-frappe-chocolate-cake_23-2148222448.jpg?t=st=1713198759~exp=1713202359~hmac=0c9cd7e8b542b5bd18c446121f125e3f26b8a95d31ec8974486ec9d0441bc738&w=826" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nutella Milkshake</h5>
+                <p class="card-text">₹179</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/glass-strawberry-milkshake-topped-with-whipped-cream-strawberry_140725-4877.jpg?t=st=1713198854~exp=1713202454~hmac=78c2bfb97f74865cd9f51583bf8080e777ecb463ced32b99dc85565fc5a2e379&w=1060" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Strawberry Milkshake</h5>
+                <p class="card-text">₹189</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/front-view-glass-with-dessert-whip-cream_23-2148603293.jpg?t=st=1713198923~exp=1713202523~hmac=9c093546926de2b8c40bee28db406a9f3c96ed66718e86afc6305ce8b6286d0b&w=900" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blueberry Milkshake</h5>
+                <p class="card-text">₹209</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- cakes -->
+      <div class="row pt-5 pb-5">
+        <h3 id="Cakes" class="mt-5 mb-4">CAKES</h3>
+        <div class="col-12 d-flex flex-wrap justify-content-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/front-view-delicious-cake-with-copy-space_23-2148769293.jpg?t=st=1713199340~exp=1713202940~hmac=fafc75f4d48114474fde58dbf636df5dcef67e1877850bc5099337c46bae5d1a&w=900" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Forest</h5>
+                <p class="card-text">₹1299</p>
+                <a href="#" class="btn btn-primary">Buy Now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://frozenbottle.com/cdn/shop/files/MangoCake1_720x.jpg?v=1712819587" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fresh Mango Gateu</h5>
+                <p class="card-text">₹999</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://frozenbottle.com/cdn/shop/files/HazelnutPralineCake_720x.png?v=1687155060" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hazelnut Praline</h5>
+                <p class="card-text">₹1699</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="https://frozenbottle.com/cdn/shop/files/RoseSaffronandPistachioCake_720x.png?v=1694172924" class="card-img-top ca-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rose Saffron Pistachio </h5>
+                <p class="card-text">₹1599</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>  
+
+  <!-- contact us -->
+  <section class="backgrnd p-5">
+    <div class="container">
+      <h1 id="contact" class="text-center pt-3 pb-4" style="font-size: 45px;letter-spacing: 1.5px;color: aliceblue;">CONTACT US</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mt-5 mb-2">
+            <label for="exampleInputEmail1" class="form-label" style="color: aliceblue;">NAME</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mt-4 mb-4">
+            <label for="exampleInputPassword1" class="form-label"  style="color: aliceblue;">MOBILE NUMBER</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="input-group mt-5 mb-3">
+            <span class="input-group-text">COMMENT</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3 w-100">CONTACT NOW</button>
+        </div>
+        <div class="col-lg-6 mt-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3825.541971104924!2d80.6529955!3d16.4987143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fadd708c3b19%3A0xb31437547cd84d43!2sTrendset%20Mall!5e0!3m2!1sen!2sin!4v1713374993813!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- payment -->
+<section class=" p-5">
+  <div class="container">
+    <h1 id="payment" class="text-center" style="font-size: 45px;">PAYMENT</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">NAME</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">EMAIL ADDRESS</label>
+            <input type="email" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">PASSWORD</label>
+            <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">MOBILE NUMBER</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">AMOUNT</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">PAYMENT <i class="fa-solid fa-forward"></i></button>
+        </form>
+      </div>
+      <div class="col-12 col-md-6 mt-5">
+        <img src="https://img.freepik.com/free-vector/sale-offer-label-baner-discount-offer-promotion_157027-1250.jpg?t=st=1713410555~exp=1713414155~hmac=5b9a3df9783771aad797e8a5c201d95f70e9c5b4551da4757dbaa4521434ccda&w=1380" alt=".." width="50%">
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- footer -->
+ <section class="bgimg-2 ">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="icons d-flex justify-content-center">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x instagram-icon"></i></a>
+              <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-square-x-twitter fa-2x"></i></a>
+              <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp "></i></a>
+              <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p style="color: aliceblue; font-size: 15px;" class="text-center mt-5">©️ Frozen Bottle CopyRight 2024 | All Rights Reserved.</p>
+    </footer>
+ </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
